@@ -10,7 +10,7 @@ import PersonForm from './validation/PersonForm';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseEffectExample/> 
+    <PersonForm/> 
   </React.StrictMode>
 );
 
