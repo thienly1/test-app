@@ -6,12 +6,14 @@ import App from './App';
 import UseEffectExample from './hooks/UseEffectExample';
 import PersonForm from './validation/PersonForm';
 import HookFormExample from './hooks-form/HookFormExample';
+import AxiosApp from './axios/AxiosApp';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HookFormExample/> 
+    <AxiosApp/> 
   </React.StrictMode>
 );
 
